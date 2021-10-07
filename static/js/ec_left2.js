@@ -103,6 +103,7 @@ var ec_left2_Option = {
         name: "新增确诊",
         type: 'line',
         smooth: true,
+        yAxisIndex: 0,
         data: []
     }, {
         name: "新增疑似",
