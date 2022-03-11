@@ -1,15 +1,15 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-- name: Setup MySQL
-  # You may pin to the exact commit or the version.
-  # uses: mirromutth/mysql-action@9e1c6ff16678d06d9159ebf5d1e45e59bdc562a0
-  uses: mirromutth/mysql-action@v1
-  with:
-    # Version of MySQL to use
-    mysql version: # optional, default is latest
-    # MYSQL_DATABASE - name for the default database that is created
-    mysql database: cov # optional, default is test
-    # MYSQL_USER - create the specified user with superuser power for created database
-    mysql user: root # optional, default is test
-    # MYSQL_PASSWORD - superuser password
-    mysql password: 123456
+-name: Setup MySQL
+# You may pin to the exact commit or the version.
+# uses: mirromutth/mysql-action@9e1c6ff16678d06d9159ebf5d1e45e59bdc562a0
+uses: mirromutth/mysql-action@v1
+with:
+  # Version of MySQL to use
+  mysql version: # optional, default is latest
+  # MYSQL_DATABASE - name for the default database that is created
+  mysql database: cov # optional, default is test
+  # MYSQL_USER - create the specified user with superuser power for created database
+  mysql user: root # optional, default is test
+  # MYSQL_PASSWORD - superuser password
+  mysql password: 123456
